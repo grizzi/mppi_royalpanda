@@ -2,10 +2,10 @@
 // Created by giuseppe on 09.02.21.
 //
 
+#include "mppi_manipulation/controller_interface.h"
 #include <manipulation_msgs/InputState.h>
 #include <manipulation_msgs/conversions.h>
 #include <ros/ros.h>
-#include "mppi_manipulation/controller_interface.h"
 
 int main(int argc, char** argv) {
   ros::init(argc, argv, "manipulation_controller");
